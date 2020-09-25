@@ -2,12 +2,15 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
 import { Button } from "../components";
+
+// const { width } = Dimensions.get("window");
+
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     justifyContent: "center",
     alignItems: "center",
     padding: 44,
+    flex: 1,
   },
   subtitle: {
     fontFamily: "SFProDisplay-Semibold",
