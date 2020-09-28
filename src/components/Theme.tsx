@@ -55,6 +55,6 @@ const theme: BaseTheme = {
 };
 
 export type Theme = typeof theme;
-export const Box = createBox<Theme>();
 export const Text = createText<Theme>();
+export const Box = createBox<Theme>();
 export default theme;
